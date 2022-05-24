@@ -7,22 +7,24 @@ public class playerController : MonoBehaviour
     // refrencing gameobject componenet rigid body
     private Rigidbody2D rb;
     
-    public float moveSpeed = 0.1f;
-    public float jumpForce = 10f;
-    private bool isJumping;
+    public float moveSpeed = 0.2f; //movespeed of my character
+    private float jumpForce = 10f; //jumpforce of the character
+    
+    
+    private bool isJumping; //to tell if the character is jumping or not
     private float moveHorizontal;
-    private float moveVertical;
 
-    public float targetSpeed = 15f;
+    private float targetSpeed = 10f; //topspeed of my character
+    private float sprintSpeed = 15f; //sprint speed
 
-    public float accelRate = 3f;
-    public float deaccelRate = 1f;
+    private float accelRate = 2f;
+    private float deaccelRate = 5f;
 
     //for the animator and flip animation
     public Animator animator;
 
-    public float fallMultiplier = 3f;
-    public float lowJumpMultiplier = 2f;
+    private float fallMultiplier = 2.5f; //standard fall
+    private float lowJumpMultiplier = 2f; //small jump fall
 
 
     // Start is called before the first frame update
@@ -36,109 +38,91 @@ public class playerController : MonoBehaviour
     void FixedUpdate()
     {
 
-        #region Trial
-        /*
-        float targetSpeed = moveHorizontal * moveSpeed;
-        float speedDif = targetSpeed - rb.velocity.x;
-        float accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? acceleration : deaccerleration;
-        float movement = Mathf.Pow(Mathf.Abs(speedDif) * accelRate, velPower) * Mathf.Sign(speedDif);
-        rb.AddForce(movement * Vector2.right); */
-        #endregion
+        //jumping
 
-        if (moveSpeed >= targetSpeed)
+        if (moveSpeed >= targetSpeed)//increases rate at which the character falls if characeter is already moving
         {
             fallMultiplier = 7f;
-
         }
         else
         {
             fallMultiplier = 3f;
         }
 
-        if (rb.velocity.y < 0)
+        if (rb.velocity.y < 0) //big jump 
         {
             rb.velocity += Vector2.up *Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
         }
-        else if (rb.velocity.y > 0 && !Input.GetButton("Vertical"))
+        else if (rb.velocity.y > 0 && !Input.GetButton("Vertical")) //small jump
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier -1) * Time.deltaTime;
         }
         
-        
-        //if (rb.velocity.x != 0 )
-        //{
-            rb.velocity = new Vector2(moveHorizontal * moveSpeed, rb.velocity.y );
-            if (Input.GetButton ("Horizontal"))
-            {
-                //rb.velocity = Vector2.right * moveSpeed;
+        //moving
+        rb.velocity = new Vector2(moveHorizontal * moveSpeed, rb.velocity.y );
 
-                if (moveSpeed <= targetSpeed)
-                {
-                    moveSpeed += accelRate;
-                }
-            }
-            else 
-            {
-                moveSpeed -= deaccelRate;
-                if (moveSpeed < 0.2f )
-                {
-                    moveSpeed = 0.2f;
-                }
-            }
-        //}
-
-        //rb.velocity = new Vector2(moveHorizontal * moveSpeed * Time.deltaTime, rb.velocity.y );
-
-        /*if (!isJumping && moveVertical > 0.1f )
+    
+        if (Input.GetButton ("Horizontal"))
         {
-            rb.AddForce(new Vector2(0f , moveVertical * jumpForce), ForceMode2D.Impulse);
-        }*/
 
+            if (Input.GetKey(KeyCode.LeftShift)) // sprint
+            {
+                targetSpeed = sprintSpeed;
+            }
+            else //stop sprint
+            {
+                targetSpeed = 10f;
+            }
 
-
+            if (moveSpeed < targetSpeed) //if my movespeed is under the top speed it will accelerate until it is at that speed while the sideways buttons are pressed.
+            {
+                moveSpeed += accelRate;
+            }
+            else if (moveSpeed > targetSpeed) //If i stop sprint will reduce back to target speed.
+            {
+                moveSpeed = targetSpeed;
+            }
+        }
+        else 
+        {
+            moveSpeed -= deaccelRate; //if there is no button pressed sideways the movespeed is deaccerlerated unitil 0.2
+            if (moveSpeed < 0.2f )
+            {
+                moveSpeed = 0.2f;
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!isJumping)
+        if (!isJumping) //check to see that it is not jumping
         {
             if (Input.GetButtonDown ("Vertical"))
             {
-                rb.velocity = Vector2.up * jumpForce;
+                rb.velocity = Vector2.up * jumpForce; //makes characeter jump
 
             }
         }
 
-
-
-
-
-
-        /*if (Input.GetButtonDown ("Horizontal"))
-        {
-            rb.velocity = Vector2.right * moveSpeed;
-        }*/
-
-
-
-
-
-
-
-
-
         moveHorizontal = Input.GetAxisRaw("Horizontal");
-        /*moveVertical = Input.GetAxisRaw("Vertical");*/
 
-        #region animator
-        if(moveHorizontal > 0.1f && !isJumping)
-
+        #region animator 
+        //sets character animations 
+        if(moveHorizontal >= 0.1f && !isJumping)
         {
             animator.SetFloat("Speed", 1);
             transform.eulerAngles = new Vector2(0,0);
         }
-        if (moveHorizontal < -0.1f && !isJumping)
+        if (isJumping)
+        {
+            animator.SetBool("Jump", true);
+        }
+        else
+        {
+            animator.SetBool("Jump", false);
+        }
+        if (moveHorizontal <= -0.1f && !isJumping)
         {
             animator.SetFloat("Speed", 1);
             transform.eulerAngles = new Vector2(0,180); 
@@ -148,14 +132,9 @@ public class playerController : MonoBehaviour
            animator.SetFloat("Speed", 0); 
         }
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        else if (Input.GetKey(KeyCode.LeftShift)) //sprint
         {
-            moveSpeed = 15f;
             animator.SetFloat("Speed", 2);
-        }
-        else
-        {
-            moveSpeed =10f;
         }
         #endregion
 
@@ -164,14 +143,14 @@ public class playerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Platform")
+        if(collision.gameObject.tag == "Platform")//if charcater is on the platform it is not jumping
         {
             isJumping = false;
         }
 
     }
 
-    void OnTriggerExit2D(Collider2D collision)
+    void OnTriggerExit2D(Collider2D collision) //if charcater is not on the platform it is jumping
     {
         if(collision.gameObject.tag == "Platform")
         {

@@ -6,14 +6,13 @@ using UnityEngine.UI;
 
 public class sceneLevelManager : MonoBehaviour
 {
-    public void PlayGame()
+
+    public void PlayGame(GameData gameData)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        Debug.Log("ysuayuh");
+        gameData.LoadLevel();
+        SceneManager.LoadScene(gameData.gameLevel);
     }
 
-    public void ExitGame()
-    {
-        SceneManager.LoadScene(0);
-    }
+
+
 }

@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class pauseMenu : MonoBehaviour
 {
     public static bool GamePaused = false;
 
     public GameObject pauseMenuUI;
+    public GameObject pauseIcon;
+
 
     //runs only on first instance of the code being run 
     void Awake()
@@ -20,28 +23,35 @@ public class pauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (GamePaused)
+            if (GamePaused) //if the key is pressed while the game is paused it will resume
             {
                 Resume();
             }
-            else
+            else // if pressed while the game is not paused it will pause the game
             {
                 Pause();
             }
         }
     }
     
-    void Resume ()
+    public void Resume () 
     {
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GamePaused = false;
+        pauseMenuUI.SetActive(false);// makes the pause panel inactive
+        pauseIcon.SetActive(true); //makes pause icon appear
+        Time.timeScale = 1f; //resumes time scale
+        GamePaused = false; 
     }
 
-    void Pause ()
+    public void Pause ()
     {
-        pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;
+        pauseMenuUI.SetActive(true);//makes the pause panel active
+        pauseIcon.SetActive(false); //makes pause icon disappear
+        Time.timeScale = 0f; //stops the time scale
         GamePaused = true;
+    }
+
+    public void ExitGame()
+    {
+        SceneManager.LoadScene(0);
     }
 }
