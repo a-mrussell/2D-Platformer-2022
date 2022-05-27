@@ -6,6 +6,8 @@ public class playerController : MonoBehaviour
 {
     // refrencing gameobject componenet rigid body
     private Rigidbody2D rb;
+
+    public pauseMenu PM;
     
     public float moveSpeed = 0.2f; //movespeed of my character
     private float jumpForce = 10f; //jumpforce of the character
@@ -96,47 +98,17 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (!isJumping) //check to see that it is not jumping
         {
             if (Input.GetButtonDown ("Vertical"))
             {
                 rb.velocity = Vector2.up * jumpForce; //makes characeter jump
-
             }
         }
 
         moveHorizontal = Input.GetAxisRaw("Horizontal");
-
-        #region animator 
-        //sets character animations 
-        if(moveHorizontal >= 0.1f && !isJumping)
-        {
-            animator.SetFloat("Speed", 1);
-            transform.eulerAngles = new Vector2(0,0);
-        }
-        if (isJumping)
-        {
-            animator.SetBool("Jump", true);
-        }
-        else
-        {
-            animator.SetBool("Jump", false);
-        }
-        if (moveHorizontal <= -0.1f && !isJumping)
-        {
-            animator.SetFloat("Speed", 1);
-            transform.eulerAngles = new Vector2(0,180); 
-        }
-        if (moveHorizontal == 0f)
-        {
-           animator.SetFloat("Speed", 0); 
-        }
-
-        else if (Input.GetKey(KeyCode.LeftShift)) //sprint
-        {
-            animator.SetFloat("Speed", 2);
-        }
-        #endregion
+        characterAnimator();
 
     }
 
@@ -157,4 +129,48 @@ public class playerController : MonoBehaviour
             isJumping = true;
         }
     }
+
+    void characterAnimator()
+    {
+        if (!PM.GamePaused)
+        {
+            if (moveHorizontal > 0.1f )    
+            {
+                transform.eulerAngles = new Vector2(0,0);
+            }
+            if (moveHorizontal < -0.1f )  
+            {
+                transform.eulerAngles = new Vector2(0,180);
+            }
+
+            if (moveHorizontal == 0f)
+            {
+            animator.SetFloat("Speed", 0); 
+            }
+            else if(!isJumping)
+            {
+                animator.SetFloat("Speed", 1);
+            }
+            
+            if (isJumping)
+            {
+                animator.SetBool("Jump", true);
+            }
+            else if (!isJumping)
+            {
+                animator.SetBool("Jump", false);
+            }
+
+
+            else if (Input.GetKey(KeyCode.LeftShift)) //sprint
+            {
+                animator.SetFloat("Speed", 2);
+            }
+
+        }
+
+
+        
+    }
 }
+

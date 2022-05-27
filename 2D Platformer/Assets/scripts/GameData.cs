@@ -7,6 +7,9 @@ public class GameData : MonoBehaviour
 {
     public int gameLevel = 1;
     public GameObject saveSprite;
+    public string test = "world";
+
+
 
     public void SaveLevel ()
     {
@@ -22,6 +25,7 @@ public class GameData : MonoBehaviour
             saveSprite.SetActive(false);
             SaveLevel();
             SceneManager.LoadScene(gameLevel);
+            Debug.Log(test);
         }
     }
 

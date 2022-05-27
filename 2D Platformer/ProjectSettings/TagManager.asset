@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Platform
+  - Key
+  - LockedDoor
   layers:
   - Default
   - TransparentFX
@@ -44,6 +46,9 @@ TagManager:
     locked: 0
   - name: decor
     uniqueID: 1444546035
+    locked: 0
+  - name: doora
+    uniqueID: 4178434439
     locked: 0
   - name: walls/ground
     uniqueID: 3038498801
