@@ -21,6 +21,7 @@ public class KeyDoor : MonoBehaviour
         if (collision.gameObject.tag == "LockedDoor" && keys > 0)
         {
             door.SetActive(false);
+            keys -= 1;
             Debug.Log("door opened");
 
         }

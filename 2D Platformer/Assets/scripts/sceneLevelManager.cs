@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class sceneLevelManager : MonoBehaviour
 {
 
-    public void PlayGame(GameData gameData)
+    public static void PlayGame(GameData gameData)
     {
-        gameData.LoadLevel();
+        gameData.LoadLevelPlay();
         SceneManager.LoadScene(gameData.gameLevel);
     }
 

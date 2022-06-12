@@ -6,14 +6,12 @@ using UnityEngine;
 public class SavedGameData
 {
 
-    new public int gameLevel;
-    //new public string test;
+    public int gameLevel;
 
 
     public SavedGameData (GameData gameData)
     {
         gameLevel = gameData.gameLevel;
-        //test = gameData.test;
         
     }
 

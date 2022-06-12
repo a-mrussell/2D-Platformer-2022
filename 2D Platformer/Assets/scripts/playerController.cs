@@ -6,15 +6,13 @@ public class playerController : MonoBehaviour
 {
     // refrencing gameobject componenet rigid body
     private Rigidbody2D rb;
-
-    public pauseMenu PM;
     
     public float moveSpeed = 0.2f; //movespeed of my character
     private float jumpForce = 10f; //jumpforce of the character
     
     
-    private bool isJumping; //to tell if the character is jumping or not
-    private float moveHorizontal;
+    public static bool isJumping; //to tell if the character is jumping or not
+    public static float moveHorizontal;
 
     private float targetSpeed = 10f; //topspeed of my character
     private float sprintSpeed = 15f; //sprint speed
@@ -23,7 +21,7 @@ public class playerController : MonoBehaviour
     private float deaccelRate = 5f;
 
     //for the animator and flip animation
-    public Animator animator;
+    //public Animator animator;
 
     private float fallMultiplier = 2.5f; //standard fall
     private float lowJumpMultiplier = 2f; //small jump fall
@@ -33,7 +31,6 @@ public class playerController : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-
         isJumping = false;
     }
 
@@ -108,7 +105,7 @@ public class playerController : MonoBehaviour
         }
 
         moveHorizontal = Input.GetAxisRaw("Horizontal");
-        characterAnimator();
+        //characterAnimator();
 
     }
 
@@ -130,7 +127,7 @@ public class playerController : MonoBehaviour
         }
     }
 
-    void characterAnimator()
+    /*void characterAnimator()
     {
         if (!PM.GamePaused)
         {
@@ -168,9 +165,9 @@ public class playerController : MonoBehaviour
             }
 
         }
+    }*/
 
 
-        
-    }
+
 }
 

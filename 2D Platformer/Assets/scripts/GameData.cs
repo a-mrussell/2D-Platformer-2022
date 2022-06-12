@@ -21,25 +21,28 @@ public class GameData : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            gameLevel += 1;
+            //gameLevel += 1;
             saveSprite.SetActive(false);
             SaveLevel();
-            SceneManager.LoadScene(gameLevel);
+            //SceneManager.LoadScene(gameLevel);
             Debug.Log(test);
         }
     }
 
-    public void LoadLevel()
+    public void LoadLevelPlay()
     {
         SavedGameData data = SaveSystem.LoadLevel();
 
         gameLevel = data.gameLevel;
+        
+
 
     }
 
     public void ClearData()
     {
         gameLevel = 1;
+        PlayerHealth.playerHealth = 5f;
         SaveLevel();
     }
 }
