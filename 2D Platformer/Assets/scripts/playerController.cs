@@ -126,48 +126,5 @@ public class playerController : MonoBehaviour
             isJumping = true;
         }
     }
-
-    /*void characterAnimator()
-    {
-        if (!PM.GamePaused)
-        {
-            if (moveHorizontal > 0.1f )    
-            {
-                transform.eulerAngles = new Vector2(0,0);
-            }
-            if (moveHorizontal < -0.1f )  
-            {
-                transform.eulerAngles = new Vector2(0,180);
-            }
-
-            if (moveHorizontal == 0f)
-            {
-            animator.SetFloat("Speed", 0); 
-            }
-            else if(!isJumping)
-            {
-                animator.SetFloat("Speed", 1);
-            }
-            
-            if (isJumping)
-            {
-                animator.SetBool("Jump", true);
-            }
-            else if (!isJumping)
-            {
-                animator.SetBool("Jump", false);
-            }
-
-
-            else if (Input.GetKey(KeyCode.LeftShift)) //sprint
-            {
-                animator.SetFloat("Speed", 2);
-            }
-
-        }
-    }*/
-
-
-
 }
 

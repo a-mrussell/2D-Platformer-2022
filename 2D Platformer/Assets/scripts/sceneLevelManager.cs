@@ -7,10 +7,10 @@ using UnityEngine.UI;
 public class sceneLevelManager : MonoBehaviour
 {
 
-    public static void PlayGame(GameData gameData)
+    public void PlayGame(GameData gameData)
     {
-        gameData.LoadLevelPlay();
-        SceneManager.LoadScene(gameData.gameLevel);
+        gameData.LoadLevelPlay(); //pulls the game level from the save
+        SceneManager.LoadScene(gameData.gameLevel); //loads the game level from the save
     }
 
 
