@@ -1,0 +1,2904 @@
+fileFormatVersion: 2
+guid: fcbc23dadbfa09a469b8eb140da80852
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 223503724431883533
+    second: trial font sprite_0
+  - first:
+      213: 7973918883866003574
+    second: trial font sprite_1
+  - first:
+      213: -39402247292814625
+    second: trial font sprite_2
+  - first:
+      213: 3738044996430608102
+    second: trial font sprite_3
+  - first:
+      213: 4747081116969929845
+    second: trial font sprite_4
+  - first:
+      213: 5450183300939801313
+    second: trial font sprite_5
+  - first:
+      213: 1950034611452419890
+    second: trial font sprite_6
+  - first:
+      213: -1965863925268241087
+    second: trial font sprite_7
+  - first:
+      213: -4634118399255706167
+    second: trial font sprite_8
+  - first:
+      213: -6656683663916700831
+    second: trial font sprite_9
+  - first:
+      213: 4720612729085735212
+    second: trial font sprite_10
+  - first:
+      213: -3456684095124316787
+    second: trial font sprite_11
+  - first:
+      213: 6322325433722543140
+    second: trial font sprite_12
+  - first:
+      213: -8445953365603588386
+    second: trial font sprite_13
+  - first:
+      213: -7743140379294677701
+    second: trial font sprite_14
+  - first:
+      213: -5987959306960041656
+    second: trial font sprite_15
+  - first:
+      213: -2944550614048254733
+    second: trial font sprite_16
+  - first:
+      213: 7582507028878259041
+    second: trial font sprite_17
+  - first:
+      213: 1514174059354725762
+    second: trial font sprite_18
+  - first:
+      213: -4208902753633382229
+    second: trial font sprite_19
+  - first:
+      213: -6175549369151987416
+    second: trial font sprite_20
+  - first:
+      213: -1913085948153610573
+    second: trial font sprite_21
+  - first:
+      213: 2950111496855038501
+    second: trial font sprite_22
+  - first:
+      213: -6087788864004938361
+    second: trial font sprite_23
+  - first:
+      213: 8844254264528685971
+    second: trial font sprite_24
+  - first:
+      213: 9120661341341881518
+    second: trial font sprite_25
+  - first:
+      213: 3120648098968696666
+    second: trial font sprite_26
+  - first:
+      213: 1143600806781331815
+    second: trial font sprite_27
+  - first:
+      213: -1116198083011943960
+    second: trial font sprite_28
+  - first:
+      213: -2663235395856364334
+    second: trial font sprite_29
+  - first:
+      213: 6824072356359518753
+    second: trial font sprite_30
+  - first:
+      213: -3156522586854101354
+    second: trial font sprite_31
+  - first:
+      213: -5342428666516856142
+    second: trial font sprite_32
+  - first:
+      213: 2170260025946230812
+    second: trial font sprite_33
+  - first:
+      213: -2137898532237285974
+    second: trial font sprite_34
+  - first:
+      213: -6169090116487467923
+    second: trial font sprite_35
+  - first:
+      213: -3058890368886850036
+    second: trial font sprite_36
+  - first:
+      213: -8997125820216385943
+    second: trial font sprite_37
+  - first:
+      213: 7438615938033773189
+    second: trial font sprite_38
+  - first:
+      213: -5301659600554088299
+    second: trial font sprite_39
+  - first:
+      213: 2261780872499274217
+    second: trial font sprite_40
+  - first:
+      213: -7578274782657725981
+    second: trial font sprite_41
+  - first:
+      213: -5784568442019411454
+    second: trial font sprite_42
+  - first:
+      213: 7184588962709753981
+    second: trial font sprite_43
+  - first:
+      213: 8773495690221776343
+    second: trial font sprite_44
+  - first:
+      213: -3419527860200710246
+    second: trial font sprite_45
+  - first:
+      213: -926857014347023244
+    second: trial font sprite_46
+  - first:
+      213: 81977876513339202
+    second: trial font sprite_47
+  - first:
+      213: -9157941416942585523
+    second: trial font sprite_48
+  - first:
+      213: 7480888479389586356
+    second: trial font sprite_49
+  - first:
+      213: -5289379685628517929
+    second: trial font sprite_50
+  - first:
+      213: 8490316995521411662
+    second: trial font sprite_51
+  - first:
+      213: 3747988700025658226
+    second: trial font sprite_52
+  - first:
+      213: -6018803469470356971
+    second: trial font sprite_53
+  - first:
+      213: 350240037992272515
+    second: trial font sprite_54
+  - first:
+      213: 2287019402689113860
+    second: trial font sprite_55
+  - first:
+      213: 487304156093041041
+    second: trial font sprite_56
+  - first:
+      213: -2603308205160344307
+    second: trial font sprite_57
+  - first:
+      213: 3098390181876069106
+    second: trial font sprite_58
+  - first:
+      213: -9049001835989106155
+    second: trial font sprite_59
+  - first:
+      213: 4005021726168290288
+    second: trial font sprite_60
+  - first:
+      213: 1358778548406378566
+    second: trial font sprite_61
+  - first:
+      213: 7214186982960801011
+    second: trial font sprite_62
+  - first:
+      213: 5415194950413256103
+    second: trial font sprite_63
+  - first:
+      213: -3355215077002131682
+    second: trial font sprite_64
+  - first:
+      213: -4080854179950637718
+    second: trial font sprite_65
+  - first:
+      213: -6244956952637808694
+    second: trial font sprite_66
+  - first:
+      213: -8971617498684721450
+    second: trial font sprite_67
+  - first:
+      213: -5513361038399393677
+    second: trial font sprite_68
+  - first:
+      213: 2849640120072136082
+    second: trial font sprite_69
+  - first:
+      213: 7770743108225727172
+    second: trial font sprite_70
+  - first:
+      213: 7510592508844958123
+    second: trial font sprite_71
+  - first:
+      213: 1918278569098733990
+    second: trial font sprite_72
+  - first:
+      213: -2557884283101932798
+    second: trial font sprite_73
+  - first:
+      213: -7674366390056673531
+    second: trial font sprite_74
+  - first:
+      213: 8528416918322549215
+    second: trial font sprite_75
+  - first:
+      213: -2117797261574375416
+    second: trial font sprite_76
+  - first:
+      213: 7409255937432041968
+    second: trial font sprite_77
+  - first:
+      213: -584683861136631596
+    second: trial font sprite_78
+  - first:
+      213: 3445915459992875614
+    second: trial font sprite_79
+  - first:
+      213: 2099712207997601034
+    second: trial font sprite_80
+  - first:
+      213: -2503568565945847333
+    second: trial font sprite_81
+  - first:
+      213: 1893970123701246951
+    second: trial font sprite_82
+  - first:
+      213: 7126837168877126629
+    second: trial font sprite_83
+  - first:
+      213: -4129531952963006199
+    second: trial font sprite_84
+  - first:
+      213: -3775985472085003980
+    second: trial font sprite_85
+  - first:
+      213: 6426651295104895003
+    second: trial font sprite_86
+  - first:
+      213: 3748879574521353239
+    second: trial font sprite_87
+  - first:
+      213: -6123402538758429457
+    second: trial font sprite_88
+  - first:
+      213: 7853668423913550562
+    second: trial font sprite_89
+  - first:
+      213: -771941372802525249
+    second: trial font sprite_90
+  - first:
+      213: -5433394447617993650
+    second: trial font sprite_91
+  - first:
+      213: 1538324438604862038
+    second: trial font sprite_92
+  - first:
+      213: -9106042358427855416
+    second: trial font sprite_93
+  - first:
+      213: -1731347761605224280
+    second: trial font sprite_94
+  - first:
+      213: -5257802291551392482
+    second: trial font sprite_95
+  - first:
+      213: -4512944714717510801
+    second: trial font sprite_96
+  - first:
+      213: -2290690797673063100
+    second: trial font sprite_97
+  - first:
+      213: -3655607640079225704
+    second: trial font sprite_98
+  - first:
+      213: -5426164256654278229
+    second: trial font sprite_99
+  - first:
+      213: 7770375232500066227
+    second: trial font sprite_100
+  - first:
+      213: 7587215170252509366
+    second: trial font sprite_101
+  - first:
+      213: 2715268170600746439
+    second: trial font sprite_102
+  - first:
+      213: 2756575784377710169
+    second: trial font sprite_103
+  - first:
+      213: -7412837121655462758
+    second: trial font sprite_104
+  - first:
+      213: -7102162665831050463
+    second: trial font sprite_105
+  - first:
+      213: 6360844542100463072
+    second: trial font sprite_106
+  - first:
+      213: 3545225254349779479
+    second: trial font sprite_107
+  - first:
+      213: 6266957014924026492
+    second: trial font sprite_108
+  - first:
+      213: -6362458156638733632
+    second: trial font sprite_109
+  - first:
+      213: 4042688330640402910
+    second: trial font sprite_110
+  - first:
+      213: 6929727370381828235
+    second: trial font sprite_111
+  - first:
+      213: 7137227419462965735
+    second: trial font sprite_112
+  - first:
+      213: 1688836976287353396
+    second: trial font sprite_113
+  - first:
+      213: 6340633938110066709
+    second: trial font sprite_114
+  - first:
+      213: -8314189626981422591
+    second: trial font sprite_115
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trial font sprite_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 144
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d3db4047b0a1300800000000000000
+      internalID: 223503724431883533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 150
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678cc9c2afc09ae60800000000000000
+      internalID: 7973918883866003574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 144
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda72c66dd3047ff0800000000000000
+      internalID: -39402247292814625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e63ca68e1430e330800000000000000
+      internalID: 3738044996430608102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 144
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c05f0ff1501e140800000000000000
+      internalID: 4747081116969929845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_5
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 144
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2684df5d0f2ab40800000000000000
+      internalID: 5450183300939801313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 150
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f965bb52aef0b10800000000000000
+      internalID: 1950034611452419890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 144
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145a1a1fc29d7b4e0800000000000000
+      internalID: -1965863925268241087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 144
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c503455edd40bfb0800000000000000
+      internalID: -4634118399255706167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 150
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b691ee975be93a0800000000000000
+      internalID: -6656683663916700831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 144
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21b757244cf28140800000000000000
+      internalID: 4720612729085735212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 143
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d5f5931246700d0800000000000000
+      internalID: -3456684095124316787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_12
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 147
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c137f1c796db750800000000000000
+      internalID: 6322325433722543140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 144
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6eead9922f9ca80800000000000000
+      internalID: -8445953365603588386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 124
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35482699d6da8490800000000000000
+      internalID: -7743140379294677701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84907236cbe76eca0800000000000000
+      internalID: -5987959306960041656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 124
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4de7241dad227d0800000000000000
+      internalID: -2944550614048254733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163f03b08f97a3960800000000000000
+      internalID: 7582507028878259041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d13f7d84d630510800000000000000
+      internalID: 1514174059354725762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0d48bce39f695c0800000000000000
+      internalID: -4208902753633382229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_20
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821eec6719a0c4aa0800000000000000
+      internalID: -6175549369151987416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be3383577a5375e0800000000000000
+      internalID: -1913085948153610573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_22
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a27d9a6c6e0f820800000000000000
+      internalID: 2950111496855038501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_23
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785286d5844d38ba0800000000000000
+      internalID: -6087788864004938361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_24
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b477c056a1dba70800000000000000
+      internalID: 8844254264528685971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 124
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea41257aa29139e70800000000000000
+      internalID: 9120661341341881518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_26
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 123
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57f60089e4ce4b20800000000000000
+      internalID: 3120648098968696666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_27
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 124
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7692d0defd2eedf00800000000000000
+      internalID: 1143600806781331815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_28
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1e913e1c77280f0800000000000000
+      internalID: -1116198083011943960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_29
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc0cb494894a0bd0800000000000000
+      internalID: -2663235395856364334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a3f5217a9f3be50800000000000000
+      internalID: 6824072356359518753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_31
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 104
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e60156e67c134d0800000000000000
+      internalID: -3156522586854101354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_32
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b22666ee61ebd5b0800000000000000
+      internalID: -5342428666516856142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1051ccbeff4e1e10800000000000000
+      internalID: 2170260025946230812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_34
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5ea2cac98a452e0800000000000000
+      internalID: -2137898532237285974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_35
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c246b693df26aa0800000000000000
+      internalID: -6169090116487467923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_36
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0eb2ab8a63ac85d0800000000000000
+      internalID: -3058890368886850036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_37
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ed18e3cb9c32380800000000000000
+      internalID: -8997125820216385943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_38
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aef0fb8c54b3760800000000000000
+      internalID: 7438615938033773189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_39
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5982fe4cea8bc66b0800000000000000
+      internalID: -5301659600554088299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_40
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 104
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1a71958b5736f10800000000000000
+      internalID: 2261780872499274217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_41
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9b2619c3f84d690800000000000000
+      internalID: -7578274782657725981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_42
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a8f7266a519bfa0800000000000000
+      internalID: -5784568442019411454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_43
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70d1839899c4b360800000000000000
+      internalID: 7184588962709753981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dde616a8d7b1c970800000000000000
+      internalID: 8773495690221776343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_45
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f5f2157856b80d0800000000000000
+      internalID: -3419527860200710246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_46
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c3446c4742323f0800000000000000
+      internalID: -926857014347023244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_47
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247b401c17e332100800000000000000
+      internalID: 81977876513339202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_48
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 84
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49bc495dc478e080800000000000000
+      internalID: -9157941416942585523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_49
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b31452cf6471d760800000000000000
+      internalID: 7480888479389586356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_50
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1e1f343395896b0800000000000000
+      internalID: -5289379685628517929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_51
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4af384e25aa3d570800000000000000
+      internalID: 8490316995521411662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_52
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b153f6dd7830430800000000000000
+      internalID: 3747988700025658226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_53
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51aa45d222ae87ca0800000000000000
+      internalID: -6018803469470356971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_54
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 84
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38216aa757d4cd400800000000000000
+      internalID: 350240037992272515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_55
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fe5b397002dbf10800000000000000
+      internalID: 2287019402689113860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_56
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1994f715c8043c600800000000000000
+      internalID: 487304156093041041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_57
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05de86faf03fdbd0800000000000000
+      internalID: -2603308205160344307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_58
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 84
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2f7465471bffa20800000000000000
+      internalID: 3098390181876069106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_59
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 63
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512030a16cc7b6280800000000000000
+      internalID: -9049001835989106155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_60
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 63
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f39bf95a02b49730800000000000000
+      internalID: 4005021726168290288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_61
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 69
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640ee2204e95bd210800000000000000
+      internalID: 1358778548406378566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_62
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 64
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f420aea6d0fd1460800000000000000
+      internalID: 7214186982960801011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_63
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a50fd0dd13a62b40800000000000000
+      internalID: 5415194950413256103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_64
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17c0460aa1ef61d0800000000000000
+      internalID: -3355215077002131682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_65
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dcfdf9eb4ed57c0800000000000000
+      internalID: -4080854179950637718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_66
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfda602db47559a0800000000000000
+      internalID: -6244956952637808694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_67
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6f73a2b696e7380800000000000000
+      internalID: -8971617498684721450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_68
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370b9bbb85b9c73b0800000000000000
+      internalID: -5513361038399393677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_69
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295e9965794fb8720800000000000000
+      internalID: 2849640120072136082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_70
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cafb9e8fa937db60800000000000000
+      internalID: 7770743108225727172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_71
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 64
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1e96e081cfa3860800000000000000
+      internalID: 7510592508844958123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_72
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9ef53f1381f9a10800000000000000
+      internalID: 1918278569098733990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_73
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2039729fbc1908cd0800000000000000
+      internalID: -2557884283101932798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_74
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f9974cd6c2f7590800000000000000
+      internalID: -7674366390056673531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 44
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd11c0170060b5670800000000000000
+      internalID: 8528416918322549215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_76
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80870957c921c92e0800000000000000
+      internalID: -2117797261574375416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_77
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f93798e407f2d660800000000000000
+      internalID: 7409255937432041968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_78
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d81c074029c2e7f0800000000000000
+      internalID: -584683861136631596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_79
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 44
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52f6e68ad952df20800000000000000
+      internalID: 3445915459992875614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_80
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a058f30e02da32d10800000000000000
+      internalID: 2099712207997601034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_81
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1b6fb57a9814dd0800000000000000
+      internalID: -2503568565945847333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_82
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb5a66facbb84a10800000000000000
+      internalID: 1893970123701246951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_83
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3c8fe35ac97e260800000000000000
+      internalID: 7126837168877126629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_84
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901d3076194f0b6c0800000000000000
+      internalID: -4129531952963006199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_85
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 44
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431765b1831099bc0800000000000000
+      internalID: -3775985472085003980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_86
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1808049d4d003950800000000000000
+      internalID: 6426651295104895003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_87
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71410115c12b60430800000000000000
+      internalID: 3748879574521353239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_88
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 24
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4249c85dd450ba0800000000000000
+      internalID: -6123402538758429457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_89
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b11f22d5ddfc60800000000000000
+      internalID: 7853668423913550562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_90
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 24
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb79dae49638945f0800000000000000
+      internalID: -771941372802525249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_91
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 24
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4456298984b894b0800000000000000
+      internalID: -5433394447617993650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 25
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65258503de9395510800000000000000
+      internalID: 1538324438604862038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_93
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 20
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c55f3c88b6d0a180800000000000000
+      internalID: -9106042358427855416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_94
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 22
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a85ad6426409f7e0800000000000000
+      internalID: -1731347761605224280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_95
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 22
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d28d04ca88807b0800000000000000
+      internalID: -5257802291551392482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_96
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 22
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63494c41bcce51c0800000000000000
+      internalID: -4512944714717510801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_97
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 22
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dd07a2bd4d530e0800000000000000
+      internalID: -2290690797673063100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_98
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 22
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cafd6383ca44dc0800000000000000
+      internalID: -3655607640079225704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_99
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 22
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1433d8b5462b4b0800000000000000
+      internalID: -5426164256654278229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_100
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7e8a0da1be5db60800000000000000
+      internalID: 7770375232500066227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_101
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 22
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b01b51aff33b4960800000000000000
+      internalID: 7587215170252509366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_102
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd059ad3029ea520800000000000000
+      internalID: 2715268170600746439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_103
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956f6482213514620800000000000000
+      internalID: 2756575784377710169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_104
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94a5e9a9ef402990800000000000000
+      internalID: -7412837121655462758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_105
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123591e2fac007d90800000000000000
+      internalID: -7102162665831050463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_106
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed516be862464850800000000000000
+      internalID: 6360844542100463072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_107
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712334ed59b233130800000000000000
+      internalID: 3545225254349779479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_108
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7260398334b8f650800000000000000
+      internalID: 6266957014924026492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_109
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caf24b240204b7a0800000000000000
+      internalID: -6362458156638733632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_110
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9207d1e938a1830800000000000000
+      internalID: 4042688330640402910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_111
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8029edf3565b2060800000000000000
+      internalID: 6929727370381828235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_112
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9944af5868c0360800000000000000
+      internalID: 7137227419462965735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_113
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a07273844ff6710800000000000000
+      internalID: 1688836976287353396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_114
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51036dbf8f47ef750800000000000000
+      internalID: 6340633938110066709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial font sprite_115
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ae880b5901e9c80800000000000000
+      internalID: -8314189626981422591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

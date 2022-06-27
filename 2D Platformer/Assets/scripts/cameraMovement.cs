@@ -11,6 +11,23 @@ public class cameraMovement : MonoBehaviour
 
    void Update()
    {
+    if (!playerController.isJumping)
+    {
+        if (playerController.verticalPositive < -0.1f && cameraOffsetY >= -2f)
+            {
+                cameraOffsetY -= 0.2f;
+            }
+        
+        else if (playerController.verticalPositive >= 0f && cameraOffsetY <= 2f )
+            {
+                cameraOffsetY += 0.4f;
+            }
+        else if (playerController.verticalPositive >= 0f && cameraOffsetY > 2f )
+        {
+            cameraOffsetY = 2f;
+        }
+    }
+        
 
     transform.position = new Vector3(
             cameraTarget.transform.position.x + cameraOffsetX, 

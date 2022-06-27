@@ -4,18 +4,31 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
+    
     // refrencing gameobject componenet rigid body
     private Rigidbody2D rb;
     
-    public float moveSpeed = 0.2f; //movespeed of my character
-    private float jumpForce = 10f; //jumpforce of the character
+    [SerializeField] private float moveSpeed = 0.2f; //movespeed of my character
+    [SerializeField] private float topSpeed = 12.5f;
+    [SerializeField] private float sprintSpeed = 15f;
+
+
+
+    [SerializeField] private float currentMovingSpeed;
+
+
+    [SerializeField] private float jumpForce = 11f; //jumpforce of the character
     
     
     public static bool isJumping; //to tell if the character is jumping or not
     public static float moveHorizontal;
+    public static float verticalPositive;
+    
+    
 
-    private float targetSpeed = 10f; //topspeed of my character
-    private float sprintSpeed = 15f; //sprint speed
+
+    //private float targetSpeed = 12.5f; //topspeed of my character
+    //private float sprintSpeed = 15f; //sprint speed
 
     private float accelRate = 2f;
     private float deaccelRate = 5f;
@@ -23,8 +36,11 @@ public class playerController : MonoBehaviour
     //for the animator and flip animation
     //public Animator animator;
 
-    private float fallMultiplier = 2.5f; //standard fall
-    private float lowJumpMultiplier = 2f; //small jump fall
+    [SerializeField] private float fallMultiplierConstant = 3.5f; //standard fall
+    private float fallMultiplier;
+
+
+    [SerializeField] private float lowJumpMultiplier = 3f; //small jump fall
 
 
     // Start is called before the first frame update
@@ -32,6 +48,7 @@ public class playerController : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         isJumping = false;
+        fallMultiplier = fallMultiplierConstant;
     }
 
     void FixedUpdate()
@@ -39,13 +56,13 @@ public class playerController : MonoBehaviour
 
         //jumping
 
-        if (moveSpeed >= targetSpeed)//increases rate at which the character falls if characeter is already moving
+        if (currentMovingSpeed >= topSpeed)//increases rate at which the character falls if characeter is already moving
         {
-            fallMultiplier = 7f;
+            fallMultiplier = fallMultiplierConstant + 5;
         }
         else
         {
-            fallMultiplier = 3f;
+            fallMultiplier = fallMultiplierConstant;
         }
 
         if (rb.velocity.y < 0) //big jump 
@@ -56,38 +73,47 @@ public class playerController : MonoBehaviour
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier -1) * Time.deltaTime;
         }
+
+        
+        if (!isJumping) //check to see that it is not jumping
+        {
+            if (verticalPositive > 0.1f)
+            {
+                rb.velocity = Vector2.up * jumpForce; //makes characeter jump
+            }
+        }
         
         //moving
-        rb.velocity = new Vector2(moveHorizontal * moveSpeed, rb.velocity.y );
+        rb.velocity = new Vector2(moveHorizontal * currentMovingSpeed, rb.velocity.y );
 
     
         if (Input.GetButton ("Horizontal"))
         {
 
-            if (Input.GetKey(KeyCode.LeftShift)) // sprint
+            if (Input.GetKey(KeyCode.LeftShift) && currentMovingSpeed < sprintSpeed) // sprint
             {
-                targetSpeed = sprintSpeed;
+               currentMovingSpeed += accelRate;
             }
-            else //stop sprint
+            else if (Input.GetKey(KeyCode.LeftShift) && currentMovingSpeed >= sprintSpeed)
             {
-                targetSpeed = 10f;
+                currentMovingSpeed = sprintSpeed;
+            }
+            else if (currentMovingSpeed > topSpeed)
+            {
+                currentMovingSpeed = topSpeed; 
+            }
+            else if (currentMovingSpeed < topSpeed)
+            {
+                currentMovingSpeed += accelRate;
             }
 
-            if (moveSpeed < targetSpeed) //if my movespeed is under the top speed it will accelerate until it is at that speed while the sideways buttons are pressed.
-            {
-                moveSpeed += accelRate;
-            }
-            else if (moveSpeed > targetSpeed) //If i stop sprint will reduce back to target speed.
-            {
-                moveSpeed = targetSpeed;
-            }
         }
         else 
         {
-            moveSpeed -= deaccelRate; //if there is no button pressed sideways the movespeed is deaccerlerated unitil 0.2
-            if (moveSpeed < 0.2f )
+            currentMovingSpeed -= deaccelRate; //if there is no button pressed sideways the movespeed is deaccerlerated unitil 0.2
+            if (currentMovingSpeed < 0.2f )
             {
-                moveSpeed = 0.2f;
+                currentMovingSpeed = moveSpeed;
             }
         }
     }
@@ -96,15 +122,9 @@ public class playerController : MonoBehaviour
     void Update()
     {
 
-        if (!isJumping) //check to see that it is not jumping
-        {
-            if (Input.GetButtonDown ("Vertical"))
-            {
-                rb.velocity = Vector2.up * jumpForce; //makes characeter jump
-            }
-        }
-
         moveHorizontal = Input.GetAxisRaw("Horizontal");
+        verticalPositive = Input.GetAxisRaw("Vertical");
+        
         //characterAnimator();
 
     }

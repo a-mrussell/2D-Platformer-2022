@@ -910,7 +910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &503712446
 RectTransform:
   m_ObjectHideFlags: 0
@@ -950,7 +950,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameLevel: 1
   saveSprite: {fileID: 0}
-  test: world
 --- !u!114 &503712448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1965,7 +1964,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1398856438
 RectTransform:
   m_ObjectHideFlags: 0
