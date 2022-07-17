@@ -5,88 +5,76 @@ using UnityEngine.UI;
 
 public class hearts : MonoBehaviour
 {
+    /*[SerializeField] private GameObject heartNumberOne;
+    [SerializeField] private GameObject heartNumberTwo;
+    [SerializeField] private GameObject heartNumberThree;
+    //[SerializeField] private GameObject heartNumberFour;
+    //[SerializeField] private GameObject heartNumberFive;
+   
     //private  image;
-    public Image image;
-    public Sprite FULLHP;
+    public Image imageOne;
+    public Image imageTwo;
+    public Image imageThree;
+
+    public Sprite FULLHP; //refrences image sprites 
     public Sprite NOHP; 
+
 
     void Start()
     {
-        //FULLHP = Resources.Load<Sprite>("heart_pixel");      //FULL
-        //NOHP = Resources.Load<Sprite>("heart_pixel_empty");  
-        image = gameObject.GetComponent<Image>();
+        imageOne = heartNumberThree.GetComponent<Image>();
+        imageTwo = heartNumberTwo.GetComponent<Image>();
+        imageThree = heartNumberOne.GetComponent<Image>(); //refrences the image componenet
 
     }
 
     void Update()
     {
+       
         heartSpriteChange();
     }
    
 
    void heartSpriteChange()
    {
-    if (!(image = gameObject.GetComponent<Image>()))
-    {
-        Debug.Log("I have no Image component! Fix meeeeeeeeeeeee");
-    }
-    else if (PlayerHealth.playerHealth > 2)
-    {
-        image.sprite = FULLHP;
-    }
-    else if (PlayerHealth.playerHealth < 2)
-    {
-        image.sprite = NOHP;
-    }
-   }
+        if (PlayerHealth.playerHealth >= 5)
+            {
+                imageOne.sprite = FULLHP;
+                imageTwo.sprite = FULLHP;
+                imageThree.sprite = FULLHP;
+            }
+            else if (PlayerHealth.playerHealth == 3 )
+            { 
+            imageThree.sprite = NOHP;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*public float gravSuitLife;
-    Sprite FULLHP, NOHP;
- 
-    void Start()
-    {
-        lifeBar();
- 
-        FULLHP = Resources.Load<Sprite>("heart_pixel");      //FULL
-        NOHP = Resources.Load<Sprite>("heart_pixel_empty");         //EMPTY
- 
-        // Delete this when you know it's working :)
-        if(Debug.isDebugBuild)
-        {
-            Debug.Log("FULLHP = " + FULLHP);
-            Debug.Log("NOHP = " + NOHP);
-        }
-    }
- 
-    void lifeBar()
-    {
-        // This is the main thing here. I'm just getting it to log an error if there's no Image component.
-        Image image;
-        if (!(image = gameObject.GetComponent<Image>()))
-            Debug.Log("I have no Image component! Fix meeeeeeeeeeeee");
-   
-        if (gravSuitLife == 3)
-        {
-            image.sprite = FULLHP;
-        }
-        if (gravSuitLife == 0)
-        {
-            image.sprite = NOHP;
-        }
+                imageTwo.sprite = FULLHP;
+            }
+            else if (PlayerHealth.playerHealth == 2 )
+            { 
+            imageTwo.sprite = NOHP;
+            
+                imageOne.sprite = FULLHP;
+            }
+            else if (PlayerHealth.playerHealth == 1 )
+            { 
+            imageOne.sprite = NOHP;
+            }
     }*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

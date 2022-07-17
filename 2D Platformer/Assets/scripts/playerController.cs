@@ -40,7 +40,7 @@ public class playerController : MonoBehaviour
     private float fallMultiplier;
 
 
-    [SerializeField] private float lowJumpMultiplier = 3f; //small jump fall
+    [SerializeField] private float lowJumpMultiplier = 2f; //small jump fall
 
 
     // Start is called before the first frame update

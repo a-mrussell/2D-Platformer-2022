@@ -33,10 +33,10 @@ public class GameData : MonoBehaviour
         gameLevel = data.gameLevel; //loads the data
     }
 
-    public void ClearData()
+    public void ClearData()   //CHANGE THIS 
     {
         gameLevel = 1; //resets game level to first level
-        PlayerHealth.playerHealth = 5f; //resets player health to original health
+        //PlayerHealth.playerHealth = 5f; //resets player health to original health
         SaveLevel(); //saves data
     }
 }

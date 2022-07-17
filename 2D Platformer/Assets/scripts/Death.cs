@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Death : MonoBehaviour
 {
+    /*
     public GameObject DeathScreenUI; //the death screen
     public GameObject pauseIcon; //the pause button
 
@@ -13,7 +14,7 @@ public class Death : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerHealth.playerDead) // if my player is dead with no health
+        /*if (PlayerHealth.playerDead) // if my player is dead with no health
         {
             DeathScreenUI.SetActive(true); //activates death screen
             Time.timeScale = 0f; //stops time so you cant move
@@ -24,27 +25,25 @@ public class Death : MonoBehaviour
 
     }
 
-    public void RestartPlayAgain(GameData gameData) //to play again and reset the level
+    void playerwooDead()
+    {
+        Debug.Log("player died n action");
+    }
+
+    /*public void RestartPlayAgain(GameData gameData) //to play again and reset the level
     {
         if (PlayerHealth.playerDead && DeathScreenShow) //if my player is dead and the death screen is showing
         {
-            //SaveSystem.LoadLevel();
-            //SavedGameData data = SaveSystem.LoadLevel();
-            //gameLevel = data.gameLevel;
-
-            //sceneLevelManager.PlayGame();
-
             gameData.LoadLevelPlay(); //getting the info for reloading the level
             SceneManager.LoadScene(gameData.gameLevel); //reloading the level
             
-
-
-
             Time.timeScale = 1f; //starts time again
             DeathScreenUI.SetActive(false); // sets the death screen as false
             DeathScreenShow = false;
             pauseIcon.SetActive(true); //activates the pause button again
-            PlayerHealth.playerHealth = 5f; // resets the charcaters health
+
+            PlayerHealth.PlayerHealthSet();
+            //PlayerHealth.playerHealth = 5f; // resets the charcaters health
         }
     }
 
@@ -52,6 +51,6 @@ public class Death : MonoBehaviour
     {
         SceneManager.LoadScene(0); //exits back to main menu
     }
-    
+    */
 
 }

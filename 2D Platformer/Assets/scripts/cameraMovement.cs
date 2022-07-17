@@ -20,12 +20,12 @@ public class cameraMovement : MonoBehaviour
         
         else if (playerController.verticalPositive >= 0f && cameraOffsetY <= 2f )
             {
-                cameraOffsetY += 0.4f;
+                cameraOffsetY += 0.5f;
             }
-        else if (playerController.verticalPositive >= 0f && cameraOffsetY > 2f )
-        {
-            cameraOffsetY = 2f;
-        }
+        else if (playerController.verticalPositive > 0f && cameraOffsetY > 2f )
+            {
+                cameraOffsetY = 2f;
+            }
     }
         
 
