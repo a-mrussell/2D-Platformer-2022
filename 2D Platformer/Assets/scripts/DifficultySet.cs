@@ -1,24 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class DifficultySet : MonoBehaviour
 {
+    [SerializeField] Slider sliderNum;
+    public static int diff;
 
-    public static int diffculty;
+    void Awake()
+    {
+        diff = (int) sliderNum.value;
+        Debug.Log ("diifset code awake ran + " +diff);
+    }
 
-    public void SDEasy() //set difficulty to easy
+    public void DiffSet()
     {
-        diffculty = 1;
-    }
-    
-    public void SDNormal() //set difficulty to normal
-    {
-        diffculty = 2;
-    }
-    
-    public void SDHard() //set difficulty to hard
-    {
-        diffculty = 3;
+        diff = (int) sliderNum.value;
+        Debug.Log(diff);
     }
 }

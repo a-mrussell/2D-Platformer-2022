@@ -6,27 +6,16 @@ public class HealthItem : MonoBehaviour
 {
     [SerializeField] private GameObject healthItem;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerStay2D(Collider2D collision) 
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("qwertyuiop");
-            if (Input.GetButtonDown("PickUp"))
+            if (Input.GetButton("PickUp"))
             {
-                Debug.Log("jkkkkkkk");
+                Debug.Log("helath item collected");
                 healthItem.SetActive(false);
+                PlayerHealth.playerHealthCurrent = PlayerHealth.playerHealthConstant; //reset my health to the constant top health
             }
         }
     }

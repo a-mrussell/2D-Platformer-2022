@@ -9,6 +9,7 @@ TagManager:
   - LockedDoor
   - Spikes
   - HealthItem
+  - Enemy
   layers:
   - Default
   - TransparentFX

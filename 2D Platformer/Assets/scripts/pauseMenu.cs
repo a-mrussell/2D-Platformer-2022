@@ -9,12 +9,16 @@ public class pauseMenu : MonoBehaviour
 
     public GameObject pauseMenuUI;
     public GameObject pauseIcon;
+    [SerializeField] GameObject heartIcons;
+    [SerializeField] GameObject keyText;
 
 
     //runs only on first instance of the code being run 
     void Awake()
     {
         pauseMenuUI.SetActive(false);
+        heartIcons.SetActive(true);
+        keyText.SetActive(true);
         Time.timeScale = 1f;
     }
 
@@ -40,12 +44,16 @@ public class pauseMenu : MonoBehaviour
         pauseIcon.SetActive(true); //makes pause icon appear
         Time.timeScale = 1f; //resumes time scale
         GamePaused = false; 
+        heartIcons.SetActive(true); // hearts appear
+        keyText.SetActive(true);//makes key text appear
     }
 
     public void Pause ()
     {
         pauseMenuUI.SetActive(true);//makes the pause panel active
         pauseIcon.SetActive(false); //makes pause icon disappear
+        heartIcons.SetActive(false); //hearts dissapear
+        keyText.SetActive(false); //makes key text dissapear
         Time.timeScale = 0f; //stops the time scale
         GamePaused = true;
     }

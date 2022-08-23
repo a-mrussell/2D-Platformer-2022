@@ -53,7 +53,10 @@ public class playerController : MonoBehaviour
 
     void FixedUpdate()
     {
-
+        if (PlayerHealth.resp)
+        {
+            currentMovingSpeed = 0.2f;
+        }
         //jumping
 
         if (currentMovingSpeed >= topSpeed)//increases rate at which the character falls if characeter is already moving

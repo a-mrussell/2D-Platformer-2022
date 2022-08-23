@@ -1,31 +1,75 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class KeyDoor : MonoBehaviour
 {
-    public int keys = 0; //number of keys the player has
+    public static int keys; //number of keys the player has
     public GameObject door; 
     public GameObject keySprite;
+    [SerializeField] string numKeys;
+    public TMP_Text numKeyText; 
+    [SerializeField] bool doorOpening = false;
+    [SerializeField] Rigidbody2D DoorRB;
+    [SerializeField] Collider2D BC;
 
-    void OnTriggerEnter2D(Collider2D collision)
+    private void Start()
     {
-        if(collision.gameObject.tag == "Key") //if player collides with key
+        DoorRB = gameObject.GetComponent<Rigidbody2D>();
+    }
+
+    void changeKeyNumberUI()
+    {
+        numKeys = keys.ToString();
+        numKeyText.text = "Keys:" + numKeys;
+    }
+
+    private void FixedUpdate() {
+        if (doorOpening)
         {
-            keys += 1; // adds a key
-            keySprite.SetActive(false); //deactivates the key sprite
+            DoorRB.velocity = new Vector2 (0, DoorRB.velocity.y +1);
+            BC.enabled = false;
 
-            Debug.Log("key added");
-
-        }
-        if (collision.gameObject.tag == "LockedDoor" && keys > 0) // if the player collides with a door and has a key
-        {
-            door.SetActive(false); //deactivates the door sprite
-            keys -= 1; //removes 1 key
-            Debug.Log("door opened");
-
+            if (door.transform.position.y >= 10 )
+            {
+                doorOpening = false;
+                door.SetActive(false);
+            }
         }
     }
 
+    private void Awake()
+    {
+        changeKeyNumberUI();
+    }
 
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Player" && gameObject.tag =="Key") //if player collides with key
+        {
+            if (Input.GetButton("PickUp"))
+            { 
+                keys += 1; // adds a key
+                keySprite.SetActive(false); //deactivates the key sprite
+                Debug.Log("key added" + keys);
+                changeKeyNumberUI();
+            }
+        }
+
+        if (collision.gameObject.tag == "Player" && gameObject.tag == "LockedDoor") // if the player collides with a door and has a key
+        {
+            if (keys > 0)
+            {
+                if (Input.GetButton("PickUp"))
+                {
+                    keys -= 1; //removes 1 key
+                    changeKeyNumberUI();
+                    Debug.Log("door opened" + numKeys);
+                    doorOpening = true;
+                }
+            }
+        }
+    }
 }

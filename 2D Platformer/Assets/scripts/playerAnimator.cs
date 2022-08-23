@@ -11,7 +11,17 @@ public class playerAnimator : MonoBehaviour
     void characterAnimator()
     {
         if (!PM.GamePaused) //only run this code while the pause menu is not active
-        {
+        {   
+
+            if (Attacking.shooting)
+            {
+                animator.SetBool("shooting", true);
+            }
+            else if(!Attacking.shooting)
+            {
+                animator.SetBool("shooting", false);
+            }
+
             if (playerController.moveHorizontal == 0f) //sets my character to running animation
             {
             animator.SetFloat("Speed", 0); 
@@ -24,7 +34,6 @@ public class playerAnimator : MonoBehaviour
             if (playerController.isJumping) //sets my character to jumping animation
             {
                 animator.SetBool("Jump", true);
-                Debug.Log("is jumping");
             }
             else if (!playerController.isJumping) 
             {
