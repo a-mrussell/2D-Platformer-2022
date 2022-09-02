@@ -106,17 +106,15 @@ public class PlayerHealth : MonoBehaviour
     {
         ani.enabled = false;
         PC.enabled = false;
-
+        TakeDamage ();
         DeathScreenUI.SetActive(true); //activates death screen
         Time.timeScale = 0f; //stops time so you cant move
         pauseIcon.SetActive(false); // stops showng pause button
         heartFolder.SetActive(false);
     }
 
-    public static void takeDamage()
+    public static void TakeDamage()
     {
         playerHealthCurrent -= 1;
     }
-
-
 }

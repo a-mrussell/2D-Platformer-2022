@@ -24,7 +24,7 @@ public class playerAnimator : MonoBehaviour
 
             if (playerController.moveHorizontal == 0f) //sets my character to running animation
             {
-            animator.SetFloat("Speed", 0); 
+                animator.SetFloat("Speed", 0); 
             }
             else if(!playerController.isJumping) 
             {
@@ -40,7 +40,7 @@ public class playerAnimator : MonoBehaviour
                 animator.SetBool("Jump", false);
             }
 
-            else if (Input.GetKey(KeyCode.LeftShift)) //sprint
+            if (playerController.isSprinting) //sprint
             {
                 animator.SetFloat("Speed", 2);
             }

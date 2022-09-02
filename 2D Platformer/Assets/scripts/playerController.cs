@@ -11,30 +11,21 @@ public class playerController : MonoBehaviour
     [SerializeField] private float moveSpeed = 0.2f; //movespeed of my character
     [SerializeField] private float topSpeed = 12.5f;
     [SerializeField] private float sprintSpeed = 15f;
-
-
-
     [SerializeField] private float currentMovingSpeed;
-
-
     [SerializeField] private float jumpForce = 11f; //jumpforce of the character
-    
+
+    [SerializeField] BoxCollider2D boxCol;
+    [SerializeField] LayerMask layMask;
+
     
     public static bool isJumping; //to tell if the character is jumping or not
     public static float moveHorizontal;
     public static float verticalPositive;
-    
-    
-
-
-    //private float targetSpeed = 12.5f; //topspeed of my character
-    //private float sprintSpeed = 15f; //sprint speed
+    public static bool isSprinting;
 
     private float accelRate = 2f;
     private float deaccelRate = 5f;
 
-    //for the animator and flip animation
-    //public Animator animator;
 
     [SerializeField] private float fallMultiplierConstant = 3.5f; //standard fall
     private float fallMultiplier;
@@ -42,17 +33,32 @@ public class playerController : MonoBehaviour
 
     [SerializeField] private float lowJumpMultiplier = 2f; //small jump fall
 
+    void IsGrounded()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(boxCol.bounds.center, Vector2.down, boxCol.bounds.extents.y +0.5f, layMask);
+        if (hit.collider != null)
+        {
+            isJumping = false;
+        }
+        else{
+            isJumping = true;
+        }
+    }
+
 
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         isJumping = false;
+        isSprinting = false;
         fallMultiplier = fallMultiplierConstant;
+        //Collider2D[] results = new Collider2D[5];
     }
 
     void FixedUpdate()
     {
+        IsGrounded();
         if (PlayerHealth.resp)
         {
             currentMovingSpeed = 0.2f;
@@ -96,18 +102,22 @@ public class playerController : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftShift) && currentMovingSpeed < sprintSpeed) // sprint
             {
                currentMovingSpeed += accelRate;
+               isSprinting = true;
             }
             else if (Input.GetKey(KeyCode.LeftShift) && currentMovingSpeed >= sprintSpeed)
             {
                 currentMovingSpeed = sprintSpeed;
+                isSprinting = true;
             }
             else if (currentMovingSpeed > topSpeed)
             {
                 currentMovingSpeed = topSpeed; 
+                isSprinting = false;
             }
             else if (currentMovingSpeed < topSpeed)
             {
                 currentMovingSpeed += accelRate;
+                isSprinting = false;
             }
 
         }
@@ -117,6 +127,7 @@ public class playerController : MonoBehaviour
             if (currentMovingSpeed < 0.2f )
             {
                 currentMovingSpeed = moveSpeed;
+                isSprinting = false;
             }
         }
     }
@@ -124,30 +135,10 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         moveHorizontal = Input.GetAxisRaw("Horizontal");
         verticalPositive = Input.GetAxisRaw("Vertical");
-        
-        //characterAnimator();
-
     }
 
 
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "Platform")//if charcater is on the platform it is not jumping
-        {
-            isJumping = false;
-        }
-
-    }
-
-    void OnTriggerExit2D(Collider2D collision) //if charcater is not on the platform it is jumping
-    {
-        if(collision.gameObject.tag == "Platform")
-        {
-            isJumping = true;
-        }
-    }
 }
 

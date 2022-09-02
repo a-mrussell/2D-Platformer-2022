@@ -53,7 +53,6 @@ public class KeyDoor : MonoBehaviour
             { 
                 keys += 1; // adds a key
                 keySprite.SetActive(false); //deactivates the key sprite
-                Debug.Log("key added" + keys);
                 changeKeyNumberUI();
             }
         }
@@ -66,7 +65,6 @@ public class KeyDoor : MonoBehaviour
                 {
                     keys -= 1; //removes 1 key
                     changeKeyNumberUI();
-                    Debug.Log("door opened" + numKeys);
                     doorOpening = true;
                 }
             }
