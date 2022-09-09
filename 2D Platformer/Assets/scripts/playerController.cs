@@ -39,8 +39,19 @@ public class playerController : MonoBehaviour
         if (hit.collider != null)
         {
             isJumping = false;
+            if (hit.transform.name == "Enemy")
+            {
+                PlayerHealth.enemyCollide = true;
+            }
+            else if (hit.transform.name == "spikes tilemap")
+            {
+                PlayerHealth.spikeHit = true;
+                currentMovingSpeed = 1.2f;
+            }
+
         }
-        else{
+        else
+        {
             isJumping = true;
         }
     }
@@ -59,10 +70,6 @@ public class playerController : MonoBehaviour
     void FixedUpdate()
     {
         IsGrounded();
-        if (PlayerHealth.resp)
-        {
-            currentMovingSpeed = 0.2f;
-        }
         //jumping
 
         if (currentMovingSpeed >= topSpeed)//increases rate at which the character falls if characeter is already moving

@@ -8,7 +8,8 @@ public class PlayerHealth : MonoBehaviour
     public static float playerHealthCurrent;
     public static int playerHealthConstant;
 
-    public static bool resp;
+    public static bool spikeHit;
+    public static bool enemyCollide;
 
 
     [SerializeField] GameObject DeathScreenUI; //the death screen
@@ -21,11 +22,12 @@ public class PlayerHealth : MonoBehaviour
 
 
     [SerializeField] Vector3 savePointPosition;
+    
+
 
     void Awake()
     {
         PlayerHealthSet (); //runs once on code first run
-        resp = false;
     }
 
     void Start()
@@ -68,12 +70,6 @@ public class PlayerHealth : MonoBehaviour
             
             Debug.Log(savePointPosition);
         }
-        else if (collision.gameObject.tag == "Spikes") //if my character collides with the spikes
-        {
-            resp = true;
-            playerHealthCurrent -= 1; //take one off of my character current health
-            StartCoroutine(RespawnTeleport());
-        }
 
     }
 
@@ -85,12 +81,12 @@ public class PlayerHealth : MonoBehaviour
         transform.position = savePointPosition;
         yield return new WaitForSeconds(0.3f);
         PC.enabled = true;
-        resp = false;
     }
 
 
     void Update()
     {
+        //Debug.Log(playerHealthCurrent);
         if (playerHealthCurrent <= 0) //if my character health is lower or equal to 0 my character is dead
         {
             playerDead();
@@ -99,6 +95,20 @@ public class PlayerHealth : MonoBehaviour
         {
             playerHealthCurrent = playerHealthConstant;
         } 
+
+        if (spikeHit)
+        {
+            Debug.Log("spikes hit");
+            playerHealthCurrent -= 1; //take one off of my character current health
+            StartCoroutine(RespawnTeleport());
+            spikeHit = false;
+        } 
+        if (enemyCollide)
+        {
+            Debug.Log("enemy collide");
+            playerHealthCurrent -= 1; //take one off of my character current health
+            
+        }
     }
 
 
@@ -106,7 +116,6 @@ public class PlayerHealth : MonoBehaviour
     {
         ani.enabled = false;
         PC.enabled = false;
-        TakeDamage ();
         DeathScreenUI.SetActive(true); //activates death screen
         Time.timeScale = 0f; //stops time so you cant move
         pauseIcon.SetActive(false); // stops showng pause button

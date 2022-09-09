@@ -15,11 +15,11 @@ C:/Users/annam_c9ik718/OneDrive/Documents/2D-Platformer/2D Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59841
+59300
 Successfully changed project path to: C:/Users/annam_c9ik718/OneDrive/Documents/2D-Platformer/2D Platformer
 C:/Users/annam_c9ik718/OneDrive/Documents/2D-Platformer/2D Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 120.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 143.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -27,52 +27,213 @@ Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   30.0.15.1278
+    VRAM:     7895 MB
+    Driver:   27.20.11020.14001
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.415662 seconds.
+Registered in 0.003319 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 184.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 131.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.763 seconds
+- Completed reload, in  0.856 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5764ms)
-		BeginReloadAssembly (3844ms)
+	ReloadAssembly (856ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1236ms)
-			LoadAssemblies (3848ms)
+		EndReloadAssembly (671ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (675ms)
+			SetupTypeCache (195ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (373ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (305ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (184ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (117ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.127751 seconds.
+Registered in 0.008314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 131.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.882 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1884ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1590ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (686ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.6 MB.
+System memory in use after: 179.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4562.
+Total: 5.692300 ms (FindLiveObjects: 0.365100 ms CreateObjectMapping: 0.162800 ms MarkObjects: 4.974300 ms  DeleteObjects: 0.188800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Images/potion bottle.png
+  artifactKey: Guid(40bbb38378bc5b8489fe5ef4fab45ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/potion bottle.png using Guid(40bbb38378bc5b8489fe5ef4fab45ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddd19d0cf80c8023778e672d4598731') in 0.134710 seconds 
+  Import took 0.142852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.778874 seconds.
+  path: Assets/Images/potion bottle.png
+  artifactKey: Guid(40bbb38378bc5b8489fe5ef4fab45ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/potion bottle.png using Guid(40bbb38378bc5b8489fe5ef4fab45ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28a70fa471a756053876cf30189ec03') in 0.018013 seconds 
+  Import took 0.029150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.374556 seconds.
+  path: Assets/Images/potion bottle white.png
+  artifactKey: Guid(4fc149b4dd458e840a5e2be23669004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/potion bottle white.png using Guid(4fc149b4dd458e840a5e2be23669004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3efbaba9e6bb8679971fbe853c5d2fb') in 0.028714 seconds 
+  Import took 0.039766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.987983 seconds.
+  path: Assets/Images/key.png
+  artifactKey: Guid(f0c04011fefee9e428d6a312595aa18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/key.png using Guid(f0c04011fefee9e428d6a312595aa18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f914bce03bb6114df108e9426737ad') in 0.031811 seconds 
+  Import took 0.043678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.622456 seconds.
+  path: Assets/Images/key white.png
+  artifactKey: Guid(a1de3e4440a77384fb0a1a57dce63d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/key white.png using Guid(a1de3e4440a77384fb0a1a57dce63d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdb678c11cecbbb366369f323115426') in 0.025802 seconds 
+  Import took 0.037873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.515924 seconds.
+  path: Assets/Images/key white.png
+  artifactKey: Guid(a1de3e4440a77384fb0a1a57dce63d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/key white.png using Guid(a1de3e4440a77384fb0a1a57dce63d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31631ba4073ca2e9f575d19193f2d6a2') in 0.019078 seconds 
+  Import took 0.032092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.043136 seconds.
+  path: Assets/Images/key.png
+  artifactKey: Guid(f0c04011fefee9e428d6a312595aa18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/key.png using Guid(f0c04011fefee9e428d6a312595aa18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97722864f64e9b19e4a116cf90d0078e') in 0.021535 seconds 
+  Import took 0.033611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.106023 seconds.
+  path: Assets/Images/key.png
+  artifactKey: Guid(f0c04011fefee9e428d6a312595aa18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/key.png using Guid(f0c04011fefee9e428d6a312595aa18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe8769fee7ddba9e640940c520e3aa2') in 0.020814 seconds 
+  Import took 0.033978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.476128 seconds.
+  path: Assets/Images/key white.png
+  artifactKey: Guid(a1de3e4440a77384fb0a1a57dce63d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/key white.png using Guid(a1de3e4440a77384fb0a1a57dce63d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c520fec5728c3a28aa71ddad2594e0d') in 0.019206 seconds 
+  Import took 0.031033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.847982 seconds.
+  path: Assets/Images/potion bottle white.png
+  artifactKey: Guid(4fc149b4dd458e840a5e2be23669004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/potion bottle white.png using Guid(4fc149b4dd458e840a5e2be23669004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af8c8d914c2f47f8bda12a78aee751b') in 0.026624 seconds 
+  Import took 0.038061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.828863 seconds.
+  path: Assets/Images/potion bottle white.png
+  artifactKey: Guid(4fc149b4dd458e840a5e2be23669004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/potion bottle white.png using Guid(4fc149b4dd458e840a5e2be23669004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e727cce1637b491d22d569b8ecac7ed') in 0.018946 seconds 
+  Import took 0.031269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.697663 seconds.
+  path: Assets/Images/potion bottle.png
+  artifactKey: Guid(40bbb38378bc5b8489fe5ef4fab45ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/potion bottle.png using Guid(40bbb38378bc5b8489fe5ef4fab45ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b154337da73bd7df74d156211cee55') in 0.017502 seconds 
+  Import took 0.028812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.893532 seconds.
+  path: Assets/Images/potion bottle.png
+  artifactKey: Guid(40bbb38378bc5b8489fe5ef4fab45ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/potion bottle.png using Guid(40bbb38378bc5b8489fe5ef4fab45ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957916a025ff807a56eabb666683472a') in 0.019893 seconds 
+  Import took 0.031599 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
