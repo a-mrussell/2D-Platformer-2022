@@ -45,13 +45,14 @@ public class playerController : MonoBehaviour
             }
             else if (hit.transform.name == "spikes tilemap")
             {
-                PlayerHealth.spikeHit = true;
                 currentMovingSpeed = 1.2f;
+                PlayerHealth.spikeHit = true;
             }
 
         }
         else
         {
+            
             isJumping = true;
         }
     }

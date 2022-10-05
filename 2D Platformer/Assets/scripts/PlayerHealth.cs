@@ -11,10 +11,14 @@ public class PlayerHealth : MonoBehaviour
     public static bool spikeHit;
     public static bool enemyCollide;
 
+    public static int NumOfDeaths; 
+    public GameObject gameData;
+
 
     [SerializeField] GameObject DeathScreenUI; //the death screen
     [SerializeField] GameObject pauseIcon; //the pause button
     [SerializeField] GameObject heartFolder;
+    [SerializeField] GameObject keyUI;
 
 
     [SerializeField] playerAnimator ani;
@@ -22,6 +26,9 @@ public class PlayerHealth : MonoBehaviour
 
 
     [SerializeField] Vector3 savePointPosition;
+    [SerializeField] GameObject SP;
+
+
     
 
 
@@ -66,9 +73,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (collision.gameObject.tag == "Respawn")
         {
-            savePointPosition = new Vector3 (this.transform.position.x, this.transform.position.y, this.transform.position.z);
-            
-            Debug.Log(savePointPosition);
+            SP = collision.gameObject;
+            savePointPosition = new Vector3 (SP.transform.position.x, SP.transform.position.y, this.transform.position.z );
         }
 
     }
@@ -79,7 +85,7 @@ public class PlayerHealth : MonoBehaviour
         PC.enabled = false;
         //yield return new WaitForSeconds(0.1f);
         transform.position = savePointPosition;
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.4f);
         PC.enabled = true;
     }
 
@@ -98,8 +104,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (spikeHit)
         {
-            Debug.Log("spikes hit");
-            playerHealthCurrent -= 1; //take one off of my character current health
+            
+            TakeDamage();
             StartCoroutine(RespawnTeleport());
             spikeHit = false;
         } 
@@ -107,6 +113,7 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("enemy collide");
             playerHealthCurrent -= 1; //take one off of my character current health
+            NumOfDeaths +=1;
             
         }
     }
@@ -116,14 +123,18 @@ public class PlayerHealth : MonoBehaviour
     {
         ani.enabled = false;
         PC.enabled = false;
+        keyUI.SetActive(false);
         DeathScreenUI.SetActive(true); //activates death screen
         Time.timeScale = 0f; //stops time so you cant move
         pauseIcon.SetActive(false); // stops showng pause button
         heartFolder.SetActive(false);
     }
 
-    public static void TakeDamage()
+    public void TakeDamage()
     {
         playerHealthCurrent -= 1;
+        NumOfDeaths += 1;
+        Debug.Log(NumOfDeaths);
+        gameData.GetComponent<GameData>().SaveLevel();
     }
 }

@@ -9,16 +9,40 @@ public class GameData : MonoBehaviour
     public string savedGameFileName;
     public int savedDiff;
 
-    public GameObject saveSprite;
+    public int savedDeaths;
+
+    void Awake() {
+        if (SceneManager.GetActiveScene().name.Equals("Level 1"))
+        {
+            LoadLevelPlay();
+            sceneLevelManager.gameLevel = 1;
+            SaveLevel();
+        }
+        if (SceneManager.GetActiveScene().name.Equals("Level 2"))
+        {
+            LoadLevelPlay();
+            sceneLevelManager.gameLevel = 2;
+            SaveLevel();
+        }
+        if (SceneManager.GetActiveScene().name.Equals("Credits"))
+        {
+            LoadLevelPlay();
+            sceneLevelManager.gameLevel = 3;
+            SaveLevel();
+        }
+    }
 
 
     public void SaveLevel () //saves all the data. changes all the saved data to the current data.
     {
+        Debug.Log("saved game");
         savedGameLevel = sceneLevelManager.gameLevel;
 
         savedGameFileName = NameGameFile.fileSaveName;
 
         savedDiff = DifficultySet.diff;
+
+        savedDeaths = PlayerHealth.NumOfDeaths;
 
         SaveSystem.SaveLevel(this); //saves the data
     }
@@ -30,22 +54,13 @@ public class GameData : MonoBehaviour
         savedGameLevel = data.savedGameLevel; //loads the data
         savedGameFileName = data.savedGameFileName;
         savedDiff = data.savedDiff;
+        savedDeaths = data.savedDeaths;
 
         sceneLevelManager.gameLevel = savedGameLevel;
         NameGameFile.fileSaveName = savedGameFileName;
         DifficultySet.diff = savedDiff;
+        PlayerHealth.NumOfDeaths = savedDeaths;
         
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "Player") //if save sprite collides with player
-        {
-            saveSprite.SetActive(false); //deactivates save sprite
-            SaveLevel();//saves data
-            Debug.Log("eh"+ savedGameFileName + savedGameLevel + savedDiff);
-
-        }
     }
 
 }

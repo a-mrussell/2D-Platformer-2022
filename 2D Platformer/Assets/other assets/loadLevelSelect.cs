@@ -12,6 +12,21 @@ public class loadLevelSelect : MonoBehaviour
 
 
     // Start is called before the first frame update
+    private void difficultyIntToLevel (GameData gameData)
+    {
+        if (gameData.savedDiff == 1)
+        {
+            diffTxt.text = "EASY";
+        }
+        else if (gameData.savedDiff == 2)
+        {
+            diffTxt.text = "NORMAL";
+        }
+        else if (gameData.savedDiff == 3)
+        {
+            diffTxt.text = "HARD";
+        }
+    }
 
 
     public void textLoad (GameData gameData)
@@ -19,7 +34,7 @@ public class loadLevelSelect : MonoBehaviour
         gameData.LoadLevelPlay();
 
         nameFileTxt.text = gameData.savedGameFileName;
-        diffTxt.text = gameData.savedDiff.ToString();
+        difficultyIntToLevel(gameData );
         levelTxt.text = gameData.savedGameLevel.ToString();
     }
 

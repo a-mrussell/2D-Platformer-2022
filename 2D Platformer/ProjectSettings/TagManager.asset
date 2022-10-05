@@ -10,6 +10,7 @@ TagManager:
   - Spikes
   - HealthItem
   - Enemy
+  - light
   layers:
   - Default
   - TransparentFX
@@ -53,9 +54,9 @@ TagManager:
   - name: doora
     uniqueID: 4178434439
     locked: 0
-  - name: walls/ground
-    uniqueID: 3038498801
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: walls/ground
+    uniqueID: 3038498801
     locked: 0

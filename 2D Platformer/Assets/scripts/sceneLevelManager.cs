@@ -9,20 +9,16 @@ public class sceneLevelManager : MonoBehaviour
 
     public static int gameLevel;
 
-    public GameObject gameData;
+    public GameObject NLP; //next level point
 
-    public void Awake()        
-    {
-        if (SceneManager.GetActiveScene().name.Equals("Level 1") && gameLevel == 0)
-        {
-            PlaySavedGame();
-        } 
-    } //This means if the game is played from the first level it will run the saved game data.
+    public GameObject gameData;
 
     public static void NewGameLevel()
     {
         gameLevel = 1;
+        PlayerHealth.NumOfDeaths = 0;
         SceneManager.LoadScene(gameLevel);
+        Debug.Log("I am run woo!");
     }
 
     public void PlaySavedGame()
@@ -34,6 +30,27 @@ public class sceneLevelManager : MonoBehaviour
     public void ExitToMainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+    
+    void OnTriggerStay2D(Collider2D collision) 
+    {
+        Debug.Log("hit");
+        if (collision.gameObject.tag == "Player")
+        {
+            if (Input.GetButton("PickUp"))
+            {
+                LoadNextLevel();
+                Debug.Log("next level");
+                NLP.SetActive(false);
+            }
+        }
+    }
+
+    public void LoadNextLevel()
+    {
+        gameLevel += 1;
+        SceneManager.LoadScene(gameLevel);
+        gameData.GetComponent<GameData>().SaveLevel();
     }
 
 
