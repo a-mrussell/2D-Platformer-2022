@@ -10,6 +10,7 @@ public class GameData : MonoBehaviour
     public int savedDiff;
 
     public int savedDeaths;
+    public float savedTimeCount;
 
     void Awake() {
         if (SceneManager.GetActiveScene().name.Equals("Level 1"))
@@ -43,6 +44,7 @@ public class GameData : MonoBehaviour
         savedDiff = DifficultySet.diff;
 
         savedDeaths = PlayerHealth.NumOfDeaths;
+        savedTimeCount = timer.timeCount;
 
         SaveSystem.SaveLevel(this); //saves the data
     }
@@ -55,11 +57,13 @@ public class GameData : MonoBehaviour
         savedGameFileName = data.savedGameFileName;
         savedDiff = data.savedDiff;
         savedDeaths = data.savedDeaths;
+        savedTimeCount = data.savedTimeCount;
 
         sceneLevelManager.gameLevel = savedGameLevel;
-        NameGameFile.fileSaveName = savedGameFileName;
+        NameGameFile.fileSaveName = savedGameFileName;;
         DifficultySet.diff = savedDiff;
         PlayerHealth.NumOfDeaths = savedDeaths;
+        timer.timeCount = savedTimeCount;
         
     }
 

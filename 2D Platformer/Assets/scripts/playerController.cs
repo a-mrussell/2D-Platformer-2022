@@ -8,9 +8,9 @@ public class playerController : MonoBehaviour
     // refrencing gameobject componenet rigid body
     private Rigidbody2D rb;
     
-    [SerializeField] private float moveSpeed = 0.2f; //movespeed of my character
-    [SerializeField] private float topSpeed = 12.5f;
-    [SerializeField] private float sprintSpeed = 15f;
+    [SerializeField] private const float moveSpeed = 0.2f; //movespeed of my character
+    [SerializeField] private const float topSpeed = 12.5f;
+    [SerializeField] private const float sprintSpeed = 15f;
     [SerializeField] private float currentMovingSpeed;
     [SerializeField] private float jumpForce = 11f; //jumpforce of the character
 
@@ -47,6 +47,7 @@ public class playerController : MonoBehaviour
             {
                 currentMovingSpeed = 1.2f;
                 PlayerHealth.spikeHit = true;
+                
             }
 
         }

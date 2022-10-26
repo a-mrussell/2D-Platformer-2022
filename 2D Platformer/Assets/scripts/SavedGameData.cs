@@ -10,6 +10,7 @@ public class SavedGameData
     public int savedDiff;
     public string savedGameFileName;
     public int savedDeaths;
+    public float savedTimeCount;
 
 
     public SavedGameData (GameData gameData)
@@ -19,6 +20,7 @@ public class SavedGameData
         savedGameFileName = gameData.savedGameFileName;  // makes the current game file name equal to the saved game file name
 
         savedDeaths = PlayerHealth.NumOfDeaths;
+        savedTimeCount = timer.timeCount;
         
     }
 

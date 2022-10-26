@@ -17,8 +17,8 @@ public class sceneLevelManager : MonoBehaviour
     {
         gameLevel = 1;
         PlayerHealth.NumOfDeaths = 0;
+        timer.timeCount = 0f;
         SceneManager.LoadScene(gameLevel);
-        Debug.Log("I am run woo!");
     }
 
     public void PlaySavedGame()
